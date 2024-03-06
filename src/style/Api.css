@@ -1,0 +1,30 @@
+.main{
+    /* border: 2px solid black; */
+    box-shadow: 5px 5px 20px 0.5px black;
+    width: 400px;
+    height: 500px;
+   margin-left: 400px;
+   margin-top: 50px;
+   border-radius: 50px;
+   background-image: linear-gradient(to right bottom, #37d3e8, #00b8f8, #0099ff, #0072ff, #4c36e7);
+}
+input{
+    width: 250px;
+    margin: 10px;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.646);
+    border: none;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+input::placeholder{
+    color: black;
+    padding-left: 10px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: blue;
+    border: none;
+}
